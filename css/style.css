@@ -1,0 +1,143 @@
+#wrap{
+    max-width: 360px;
+    min-width: 320px;
+}
+button{
+    border: none;
+}
+[type="search"]{
+    border: none;
+}
+.inner{
+    padding: 0 16px;
+}
+.txt_white{
+    color: #fff;
+}
+.txt_orenge{
+    color: #FF6651;
+}
+.txt_gray{
+    color: #b5b5b5;
+}
+.txt_big{
+    font-size: 1.25rem;
+}
+.txt_small{
+    font-size: 0.875rem;
+}
+.txt_bold{
+    font-weight: 700;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.flex_co{
+    display: flex;
+    flex-direction: column;
+}
+
+/* header */
+#header{
+    position: relative;
+    padding: 16px 0;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+    margin-bottom: 16px;
+}
+#header .inner{
+    flex-wrap: wrap;
+}
+#header .location{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+#header .location span{
+    margin-right: 5px;
+}
+#header .alarm{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+#header .src_wrap{
+    width: 100%;
+    height: 30px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+#header .src_btn{
+    margin-right: 8px;
+}
+#header .src_wrap input::placeholder{
+    font-size: 0.875rem;
+    color: #b5b5b5;
+}
+
+
+/* section */
+section{
+    margin-bottom: 32px;
+}
+#section1{
+    margin-bottom: 0;
+    margin: 0 -16px;
+}
+#section1 .s1_art{
+    padding: 32px 16px;
+    background-color: #FF6651;
+    border-radius: 20px;
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2);
+    margin:0 16px 32px 16px;
+}
+#section1 .art_tit{
+    margin-bottom: 16px;
+}
+#section1 .art_cont{
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+    background-color: #FFF7F7;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+#section1 .art_cont_txt{
+    width:163px;
+
+}
+#section1 .art_cont_txt h3{
+    margin-bottom: 11px;
+}
+#section1 .art_cont_txt > div{
+    justify-content: space-around;
+}
+#section1 .art_cont_txt p > span:nth-child(1){
+    margin-bottom: 4px;
+}
+#section1 .art_cont_txt p > span:nth-child(2){
+    margin-bottom: 10px;
+}
+#section1 .art_btn span{
+    display: inline-block;
+    border-radius: 20px;
+    padding: 6px 16px;
+    background: #FF6651;
+    box-sizing: border-box;
+}
+#section1 .art_cont_img{
+    width: 85px;
+    height: 112px;
+    background: url(../images/shop_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+#section2 .art_tit{
+    margin-bottom: 16px;
+}
+
