@@ -1,0 +1,48 @@
+.heart_icon{
+    display: inline-block;
+    background: url(../images/heart.png) no-repeat center;
+    background-size: contain;
+    font-size: 0;
+}
+.comment_icon{
+    display: inline-block;
+    background: url(../images/comment.png) no-repeat center;
+    background-size: contain;
+    font-size: 0;
+}
+.search_icon{
+    display: inline-block;
+    background: url(../images/search_btn.png) no-repeat center;
+    background-size: contain;
+    font-size: 0;
+}
+.location_icon{
+    display: inline-block;
+    background: url(../images/location_icon.png) no-repeat center;
+    background-size: contain;
+    font-size: 0;
+}
+.alert_icon{
+    display: inline-block;
+    background: url(../images/alert.png) no-repeat center;
+    background-size: contain;
+    font-size: 0;
+}
+.question_cha_icon{
+    display: inline-block;
+    background: url(../images/question_cha_icon.png) no-repeat center;
+    background-size: contain;
+    font-size: 0;
+}
+.fire_icon{
+    display: inline-block;
+    background: url(../images/fire_icon.png) no-repeat center;
+    background-size: contain;
+    font-size: 0;
+}
+.star_icon{
+    display: inline-block;
+    background: url(../images/star.png) no-repeat center;
+    background-size: contain;
+    font-size: 0;
+}

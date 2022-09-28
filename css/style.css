@@ -6,31 +6,7 @@
 button{
     border: none;
 }
-.btn_heart{
-    width: 13px;
-    height: 12px;
-    display: block;
-    background: url(../images/heart.png) no-repeat center;
-    background-size: contain;
-    font-size: 0;
-}
-.btn_comment{
-    width: 13px;
-    height: 12px;
-    display: block;
-    background: url(../images/comment.png) no-repeat center;
-    background-size: contain;
-    font-size: 0;
-}
 
-.star_img{
-    width: 15px;
-    height: 15px;
-    display: block;
-    background: url(../images/star.png) no-repeat center;
-    background-size: contain;
-    font-size: 0;
-}
 [type="search"]{
     border: none;
 }
@@ -79,21 +55,34 @@ button{
     text-align: center;
     margin: 0 auto;
     margin-bottom: 16px;
+    align-items: center;
 }
 #header .location span{
     margin-right: 5px;
 }
-#header .alarm{
+#header .alert_icon{
     position: absolute;
     top: 16px;
-    right: 16px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
 }
 #header .src_wrap{
     width: 100%;
-    height: 30px;
+    height: 40px;
     background-color: #f1f1f1;
-    border-radius: 5px;
-    padding-left: 8px;
+    border-radius: 10px;
+    padding-left: 16px;
+    align-items: center;
+}
+#header .search_icon{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+#header .location_icon{
+    width: 18px;
+    height: 18px;
 }
 #header .src_btn{
     margin-right: 8px;
@@ -104,9 +93,18 @@ button{
 }
 
 
-/* section */
+/* section 공통 */
 section{
     margin-bottom: 32px;
+}
+#section2 .swiper-container, #section3 .swiper-container{
+    overflow: visible;
+}
+#section2 .art_tit h2, #section3 .art_tit h2{
+    align-items: center;
+}
+#section2 .art_tit, #section3 .art_tit{
+    margin-bottom: 16px;
 }
 
 /* section1 */
@@ -125,6 +123,7 @@ section{
 #section1 .art_tit{
     margin-bottom: 16px;
 }
+
 #section1 .art_cont{
     width: 100%;
     padding: 16px;
@@ -150,7 +149,9 @@ section{
 #section1 .art_cont_txt p > span:nth-child(2){
     margin-bottom: 13px;
 }
-
+#section1 .art1 .art_cont_txt p{
+    align-items: center;
+}
 #section1 .art2 .art_cont_txt h3, #section1 .art3 .art_cont_txt h3{
     margin-bottom: 14px;
 }
@@ -175,11 +176,13 @@ section{
 }
 /* section2 */
 
-#section2 .swiper-container{
-    overflow: visible;
-}
-#section2 .art_tit{
-    margin-bottom: 16px;
+
+
+
+#section2 .question_cha_icon{
+    width: 22px;
+    height: 22px;
+    margin-left: 5px;
 }
 #section2 .s2_art{
     width: 156px;
@@ -188,10 +191,9 @@ section{
     background: url(../images/shop_img.jpg) no-repeat center;
     background-size: cover;
     position: relative;
-    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2);
 }
 #section2 .art2{
-
     background: url(../images/shop2_img.jpg) no-repeat center;
     background-size: cover;
 }
@@ -224,4 +226,53 @@ section{
 }
 #section2 .s2_art_txt_third>p >button{
     margin-right: 5px;
+}
+#section2 .heart_icon{
+    width: 13px;
+    height: 12px;
+}
+#section2 .comment_icon{
+    width: 13px;
+    height: 12px;
+}
+#section2 .star_icon{
+    width: 15px;
+    height: 15px;
+}
+
+/* section3 */
+
+#section3 .fire_icon{
+    width: 22px;
+    height: 22px;
+}
+#section3 .swiper-slide:nth-of-type(2n) .s3_art{
+    background-color: #FFF7F7;
+}
+#section3 .s3_art{
+    width: 100px;
+    height: 186px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 16px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2);
+}
+#section3 .s3_art_cont{
+    align-items: center;
+}
+#section3 .s3_art_img{
+    width: 66px;
+    height: 66px;
+    background: url(../images/shop_img.jpg) no-repeat center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-bottom: 32px;
+}
+#section3 .s3_art_username{
+    margin-bottom: 8px;
+}
+#section3 .s3_art_btn_follow{
+    padding: 5px 8px;
+    border-radius: 25px;
+    border: 1px solid #FF6651;
 }

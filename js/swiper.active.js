@@ -6,3 +6,12 @@ new Swiper('.s2_slider', {
 	// centeredSlides: true,
 	freeMode: true,
 });
+
+new Swiper('.s3_slider', {
+	initialSlide: 0,
+	slidesPerView : 3,
+	spaceBetween : 16,
+	slidesPerGroup : 1,
+	// centeredSlides: true,
+	freeMode: true,
+});
