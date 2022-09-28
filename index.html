@@ -10,10 +10,12 @@
       <script src="js/html5.js"></script>
    <![endif]-->
 <link href="font/pretendard.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
 <link href="css/all.css" rel="stylesheet" type="text/css">
 <link href="css/common.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="./css/slick.css">
+
 </head>
 
 <body>
@@ -32,9 +34,9 @@
     </header>
     <div class="inner">
       <section id="section1" class="lazy slider">
-        <div style=" overflow:visible;">
-          <article class="s1_art">
-            <div class="art_tit">
+        <div>
+          <article class="s1_art art1">
+            <div class="art_tit s1_tit">
               <p class="txt_small txt_bold txt_white">Waiting</p>
               <h2 class="txt_big txt_bold txt_white">고객님의 대기현황이에요!</h2>
             </div><!--s1_tit-->
@@ -52,50 +54,117 @@
           </article><!--s1_art-->
         </div><!--slide_1-->
         <div>
-          <article class="s1_art">
+          <article class="s1_art art2">
             <div class="art_tit">
-              <p class="txt_small txt_bold txt_white">Waiting</p>
-              <h2 class="txt_big txt_bold txt_white">고객님의 대기현황이에요!</h2>
+              <p class="txt_small txt_bold txt_white">Reservation</p>
+              <h2 class="txt_big txt_bold txt_white">고객님의 예약현황이에요!</h2>
             </div><!--s1_tit-->
             <div class="art_cont flex">
               <div class="art_cont_txt flex_co">
-                <h3 class="txt_big txt_bold">롤링파스타</h3>
-                <div class="flex">
-                  <p class="flex_co"><span class="txt_small txt_gray">대기순번</span><span class="txt_big txt_bold txt_orenge">4번</span></p>
-                  <p class="flex_co"><span class="txt_small txt_gray">예상대기시간</span><span class="txt_big txt_bold">20~35분</span></p>
-                </div>
-                <button class="art_btn"><span class="txt_small txt_bold txt_white">대기취소하기</span></button>
+                <h3 class="txt_big txt_bold"><span class="txt_orenge">김벤지</span>님의</h3>
+                <p class="txt_small">롤링파스타<br>방문예약일까지 <span class="txt_orenge">8일</span> 남았어요!</p>
+                <button class="art_btn"><span class="txt_small txt_bold txt_white">예약확인하기</span></button>
               </div><!--art_cont_txt-->
               <div class="art_cont_img"></div>
             </div><!--art_cont-->
           </article><!--s1_art-->
         </div><!--slide_1-->
         <div>
-          <article class="s1_art">
+          <article class="s1_art art3">
             <div class="art_tit">
-              <p class="txt_small txt_bold txt_white">Waiting</p>
-              <h2 class="txt_big txt_bold txt_white">고객님의 대기현황이에요!</h2>
+              <p class="txt_small txt_bold txt_white">History</p>
+              <h2 class="txt_big txt_bold txt_white">최근에 방문하신 매장이에요!</h2>
             </div><!--s1_tit-->
             <div class="art_cont flex">
               <div class="art_cont_txt flex_co">
                 <h3 class="txt_big txt_bold">롤링파스타</h3>
-                <div class="flex">
-                  <p class="flex_co"><span class="txt_small txt_gray">대기순번</span><span class="txt_big txt_bold txt_orenge">4번</span></p>
-                  <p class="flex_co"><span class="txt_small txt_gray">예상대기시간</span><span class="txt_big txt_bold">20~35분</span></p>
-                </div>
-                <button class="art_btn"><span class="txt_small txt_bold txt_white">대기취소하기</span></button>
+                <p class="txt_small">김벤지님!<br>지금까지 <span class="txt_orenge">1번</span> 방문하셨어요!</p>
+                <button class="art_btn"><span class="txt_small txt_bold txt_white">리뷰쓰러가기</span></button>
               </div><!--art_cont_txt-->
               <div class="art_cont_img"></div>
             </div><!--art_cont-->
           </article><!--s1_art-->
         </div><!--slide_1-->
       </section>
+
       <section id="section2">
-        <div class="art_tit">
+        <div class="art_tit s2_tit">
           <p class="txt_small txt_bold txt_orenge">Waiting</p>
           <h2 class="txt_big txt_bold">어디를 갈 지 못 고르겠다면?</h2>
-        </div><!--s1_tit-->
-      </section>
+        </div><!--s2_tit-->
+        <div class="swiper-container s2_slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><!--swiper-slide 1-->
+              <article class="s2_art art1">
+                <div class="s2_art_txt">
+                  <div class="s2_art_txt_fir flex">
+                    <h3 class="txt_bold">롤링파스타</h3>
+                    <p class="flex"><span class="star_img">별</span><span class="txt_small">5.0</span></p>
+                  </div><!--s2_art_txt_fir-->
+                  <div class="s2_art_txt_sec flex">
+                    <p class="txt_small txt_gray">양식·수영동</p><span class="txt_small txt_gray">0.55km</span>
+                  </div><!--s2_art_txt_sec-->
+                  <div class="s2_art_txt_third flex">
+                    <p class="flex"><button class="btn_heart">하트</button><span class="txt_small txt_gray">64</span></p>
+                    <p class="flex"><button class="btn_comment">댓글</button><span class="txt_small txt_gray">378</span></p>
+                  </div><!--s2_art_txt_sec-->
+                </div><!--s2_art_txt-->
+              </article><!--s2_art-->
+            </div><!--swiper-slide 1-->
+            <div class="swiper-slide"><!--swiper-slide 2-->
+              <article class="s2_art art2">
+                <div class="s2_art_txt">
+                  <div class="s2_art_txt_fir flex">
+                    <h3 class="txt_bold">포레스트</h3>
+                    <p class="flex"><span class="star_img">별</span><span class="txt_small">5.0</span></p>
+                  </div><!--s2_art_txt_fir-->
+                  <div class="s2_art_txt_sec flex">
+                    <p class="txt_small txt_gray">양식·광안동</p><span class="txt_small txt_gray">0.35km</span>
+                  </div><!--s2_art_txt_sec-->
+                  <div class="s2_art_txt_third flex">
+                    <p class="flex"><button class="btn_heart">하트</button><span class="txt_small txt_gray">22</span></p>
+                    <p class="flex"><button class="btn_comment">댓글</button><span class="txt_small txt_gray">168</span></p>
+                  </div><!--s2_art_txt_sec-->
+                </div><!--s2_art_txt-->
+              </article><!--s2_art-->
+            </div><!--swiper-slide 2-->
+            <div class="swiper-slide"><!--swiper-slide 3-->
+              <article class="s2_art">
+                <div class="s2_art_txt">
+                  <div class="s2_art_txt_fir flex">
+                    <h3 class="txt_bold">롤링파스타</h3>
+                    <p class="flex"><span class="star_img">별</span><span class="txt_small">5.0</span></p>
+                  </div><!--s2_art_txt_fir-->
+                  <div class="s2_art_txt_sec flex">
+                    <p class="txt_small txt_gray">양식·수영동</p><span class="txt_small txt_gray">0.55km</span>
+                  </div><!--s2_art_txt_sec-->
+                  <div class="s2_art_txt_third flex">
+                    <p class="flex"><button class="btn_heart">하트</button><span class="txt_small txt_gray">64</span></p>
+                    <p class="flex"><button class="btn_comment">댓글</button><span class="txt_small txt_gray">378</span></p>
+                  </div><!--s2_art_txt_sec-->
+                </div><!--s2_art_txt-->
+              </article><!--s2_art-->
+            </div><!--swiper-slide 3-->
+            <div class="swiper-slide"><!--swiper-slide 4-->
+              <article class="s2_art">
+                <div class="s2_art_txt">
+                  <div class="s2_art_txt_fir flex">
+                    <h3 class="txt_bold">롤링파스타</h3>
+                    <p class="flex"><span class="star_img">별</span><span class="txt_small">5.0</span></p>
+                  </div><!--s2_art_txt_fir-->
+                  <div class="s2_art_txt_sec flex">
+                    <p class="txt_small txt_gray">양식·수영동</p><span class="txt_small txt_gray">0.55km</span>
+                  </div><!--s2_art_txt_sec-->
+                  <div class="s2_art_txt_third flex">
+                    <p class="flex"><button class="btn_heart">하트</button><span class="txt_small txt_gray">64</span></p>
+                    <p class="flex"><button class="btn_comment">댓글</button><span class="txt_small txt_gray">378</span></p>
+                  </div><!--s2_art_txt_sec-->
+                </div><!--s2_art_txt-->
+              </article><!--s2_art-->
+            </div><!--swiper-slide 4-->
+          </div><!--swiper-wrapper-->
+        </div><!--s2_slider-->
+      </section><!--#section2-->
     </div><!--inner-->
    
     <footer id="footer"></footer>
@@ -106,6 +175,8 @@
 <script src="js/jquery-migrate-3.0.0.js"></script>
 <script src="js/slick.js"></script>
 <script src="js/slick_active.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+<script src="js/swiper.active.js"></script>
 </body>
 
 </html>
