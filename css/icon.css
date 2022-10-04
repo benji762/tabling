@@ -22,6 +22,12 @@
     background-size: contain;
     font-size: 0;
 }
+.search_icon_orenge{
+    display: inline-block;
+    background: url(../images/search_icon_orenge.png) no-repeat center;
+    background-size: contain;
+    font-size: 0;
+}
 .location_icon{
     display: inline-block;
     background: url(../images/location_icon.png) no-repeat center;
@@ -52,6 +58,12 @@
     background-size: contain;
     font-size: 0;
 }
+.home_icon_gray{
+    display: inline-block;
+    background: url(../images/home_icon_gray.png) no-repeat center;
+    background-size: contain;
+    font-size: 0;
+}
 .home_icon_orenge{
     display: inline-block;
     background: url(../images/home_icon_orenge.png) no-repeat center;
@@ -64,15 +76,33 @@
     background-size: contain;
     font-size: 0;
 }
+.review_icon_orenge{
+    display: inline-block;
+    background: url(../images/review_icon_orenge.png) no-repeat center;
+    background-size: contain;
+    font-size: 0;
+}
 .mypage_icon_gray{
     display: inline-block;
     background: url(../images/mypage_icon_gray.png) no-repeat center;
     background-size: contain;
     font-size: 0;
 }
+.mypage_icon_orenge{
+    display: inline-block;
+    background: url(../images/mypage_icon_orenge.png) no-repeat center;
+    background-size: contain;
+    font-size: 0;
+}
 .more_icon_gray{
     display: inline-block;
     background: url(../images/more_icon_gray.png) no-repeat center;
+    background-size: contain;
+    font-size: 0;
+}
+.more_icon_orenge{
+    display: inline-block;
+    background: url(../images/more_icon_orenge.png) no-repeat center;
     background-size: contain;
     font-size: 0;
 }

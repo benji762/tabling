@@ -40,7 +40,49 @@ button{
     display: flex;
     flex-direction: column;
 }
-
+/* intro */
+#intro{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FF6651;
+    z-index: 9999;
+    display: none;
+}
+#intro .frame{
+    margin: 0 auto;
+    width: 300px;
+    height: 45%;
+    box-sizing: border-box;
+    border: 8px solid #000;
+    background-color: #fff;
+    border-top: 0px solid #000;
+    border-radius: 0 0 30px 30px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#intro .frame p{
+    font-size: 30px;
+    transform: translate(0, -50%);
+}
+#intro .paper{
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    width: 200px;
+    height: 250px;
+    background-color: #fff;
+    transform: translateX(-50%);
+    z-index: -1;
+    animation: move_down 0.7s linear forwards;
+}
+@keyframes move_down{
+    0%{bottom: 0px;}
+    100%{bottom: -200px;}
+}
 /* header */
 #header{
     position: relative;
