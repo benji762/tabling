@@ -1,45 +1,4 @@
-#wrap{
-    width: 100%;
-    max-width: 360px;
-    min-width: 320px;
-    overflow: hidden;
-}
-button{
-    border: none;
-}
 
-[type="search"]{
-    border: none;
-}
-.inner{
-    padding: 0 16px;
-}
-.txt_white{
-    color: #fff;
-}
-.txt_orenge{
-    color: #FF6651;
-}
-.txt_gray{
-    color: #b5b5b5;
-}
-.txt_big{
-    font-size: 1.25rem;
-}
-.txt_small{
-    font-size: 0.875rem;
-}
-.txt_bold{
-    font-weight: 700;
-}
-.flex{
-    display: flex;
-    flex-direction: row;
-}
-.flex_co{
-    display: flex;
-    flex-direction: column;
-}
 /* intro */
 #intro{
     position: absolute;
@@ -82,57 +41,6 @@ button{
 @keyframes move_down{
     0%{bottom: 0px;}
     100%{bottom: -200px;}
-}
-/* header */
-#header{
-    position: relative;
-    padding: 16px 0;
-    width: 100%;
-    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
-    margin-bottom: 16px;
-}
-#header .inner{
-    flex-wrap: wrap;
-}
-#header .location{
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 16px;
-    align-items: center;
-}
-#header .location span{
-    margin-right: 5px;
-}
-#header .alert_icon{
-    position: absolute;
-    top: 16px;
-    right: 20px;
-    width: 20px;
-    height: 20px;
-}
-#header .src_wrap{
-    width: 100%;
-    height: 40px;
-    background-color: #f1f1f1;
-    border-radius: 10px;
-    padding-left: 16px;
-    align-items: center;
-}
-#header .search_icon{
-    width: 15px;
-    height: 15px;
-    margin-right: 5px;
-}
-#header .location_icon{
-    width: 18px;
-    height: 18px;
-}
-#header .src_btn{
-    margin-right: 8px;
-}
-#header .src_wrap input::placeholder{
-    font-size: 0.875rem;
-    color: #b5b5b5;
 }
 
 
@@ -228,6 +136,7 @@ section{
     margin-left: 5px;
 }
 #section2 .s2_art{
+    display: block;
     width: 156px;
     height: 248px;
     border-radius: 10px;
@@ -295,6 +204,7 @@ section{
     background-color: #FFF7F7;
 }
 #section3 .s3_art{
+
     width: 100px;
     height: 186px;
     border-radius: 10px;
@@ -322,28 +232,3 @@ section{
     border: 1px solid #FF6651;
 }
 
-/* nav */
-#nav{
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    background-color: #fff;
-    z-index: 1;
-    border-radius: 10px 10px 0 0;
-    box-shadow: 0 -1px 4px 0 rgba(0,0,0,0.1);
-}
-#nav .gnb{
-    justify-content: space-between;
-}
-#nav .gnb > li > a{
-    justify-content: center;
-    align-items: center;
-    width: 52px;
-    padding: 12px 0 8px 0;
-}
-#nav .gnb > li > a > span:nth-child(1){
-    margin-bottom: 4px;
-    width: 25px;
-    height: 25px;
-}

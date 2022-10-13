@@ -4,6 +4,12 @@
     background-size: contain;
     font-size: 0;
 }
+.heart_icon_white{
+    display: inline-block;
+    background: url(../images/heart_white.png) no-repeat center;
+    background-size: contain;
+    font-size: 0;
+}
 .comment_icon{
     display: inline-block;
     background: url(../images/comment.png) no-repeat center;
@@ -103,6 +109,24 @@
 .more_icon_orenge{
     display: inline-block;
     background: url(../images/more_icon_orenge.png) no-repeat center;
+    background-size: contain;
+    font-size: 0;
+}
+.arrow_left_icon{
+    display: inline-block;
+    background: url(../images/arrow_left_icon.png) no-repeat center;
+    background-size: contain;
+    font-size: 0;
+}
+.arrow_left_icon_bk{
+    display: inline-block;
+    background: url(../images/arrow_left_icon_bk.png) no-repeat center;
+    background-size: contain;
+    font-size: 0;
+}
+.share_icon{
+    display: inline-block;
+    background: url(../images/share_icon.png) no-repeat center;
     background-size: contain;
     font-size: 0;
 }

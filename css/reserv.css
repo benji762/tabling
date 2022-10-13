@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .calender li{
+    text-align: center;
+  }
+  .calender{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .calender .month{
+    padding: 40px;
+    width: 100%;
+    position: relative;
+  }
+  .calender .month li.flex{
+    justify-content: center;
+  }
+  .calender .month .next,.calender .month .prev{
+    position: absolute;
+    top: calc(50% - 15px);
+    cursor: pointer;
+    padding: 5px;
+    display: block;
+  }
+  .calender .month .prev{
+    left: 10px;
+  }
+  .calender .month .next{
+    right: 10px;
+  }
+  .calender .weeks{display: flex;}
+  .calender .weeks li{
+    flex: 1;
+    position: relative;
+    animation: motion 2s;
+    padding: 10px; 
+  }
+  .calender .weeks li:hover{background-color: rgba(0,0,0,.2);}
+  
+  .calender .days {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .calender .days li{
+    flex-basis: calc(100% / 7);
+    padding: 10px 0;
+  }

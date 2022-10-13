@@ -1,0 +1,156 @@
+/* section 공통 */
+section{
+    margin-bottom: 32px;
+}
+section:last-child{
+    margin-bottom: 100px;
+}
+#section1 .s1_tit, #section2 .s2_tit{
+    margin-bottom: 16px;
+}
+
+/* store_tit */
+#store_tit{
+    margin-bottom: 0;
+    position: relative
+}
+#store_tit .store_bgimg{
+    position: relative;
+    width: 100%;
+    height: 252px;
+    background: url(../images/shop_img.jpg) no-repeat;
+    background-size: fill;
+    background-position: center;
+}
+#store_tit .store_bgimg .in_bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+    opacity: 0.4;
+}
+#store_tit .store_bg{
+    width: 100%;
+    height: 88px;
+    background-color: #FFF7F7;
+}
+#store_tit .store_tit_box{
+    position: absolute;
+    width: 100%;
+    padding: 0 32px;
+    bottom: 16px;
+    left: 0;
+}
+#store_tit .store_tit_box>article{
+    width: 296px;
+    height: 159px;
+    background-color: #FFF;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+    padding: 16px 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+#store_tit .store_tit_box>article > h2{
+    margin-bottom: 4px;
+}
+#store_tit .store_tit_box>article > p{
+    margin-bottom: 6px;
+}
+#store_tit .store_tit_box>article > strong{
+    margin-bottom: 20px;
+}
+#store_tit .store_tit_box>article .star_icon{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+#store_tit .store_tit_box> article .wait_wrap{
+    width: 100%;
+}
+#store_tit .store_tit_box> article .wait_wrap > p{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+#store_tit .store_tit_box> article .wait_wrap > p > span{
+    margin-bottom: 4px;
+}
+/* section1 */
+#section1{
+
+}
+#section1 .tabSet{
+	margin-bottom:30px;
+}
+#section1 .tabs{
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+#section1 .tabs > li{
+    width: 100%;
+}
+#section1 .tabs > li > a{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #f1f1f1;
+    text-align: center;
+    padding: 11px 0;
+    color: #b5b5b5;
+}
+
+#section1 .tabs > li > a.on{
+    border-top: 2px solid #ff6651;
+    border-right: 1px solid #f1f1f1;
+    border-bottom: none;
+    color: #222;
+}
+#section1 .tabs > li:nth-child(2) > a.on{
+    border-top: 2px solid #ff6651;
+    border-right: 1px solid #f1f1f1;
+    border-left: 1px solid #f1f1f1;
+    border-bottom: none;
+}
+#section1 .tabs > li:nth-child(3) > a.on{
+    border-top: 2px solid #ff6651;
+    border-left: 1px solid #f1f1f1;
+    border-bottom: none;
+}
+#section1 .panel{
+	display: none;
+}
+
+#section1 #store_menu .menu_tit{
+    margin-bottom: 16px;
+  
+}
+#section1 #store_menu .menu_art{
+    padding: 8px 0;
+    position: relative;
+}
+#section1 #store_menu .menu_art::after{
+    content: '';
+    position: absolute;
+    width: 110%;
+    height: 1px;
+    background-color: #f1f1f1;
+    bottom: 0px;
+    left: -16px;
+}
+#section1 #store_menu .menu_art_img{
+    width: 70px;
+    height: 70px;
+    background: url(../images/pasta.png) no-repeat center;
+    background-size: cover;
+    border-radius: 10px;
+}
+#section1 #store_menu .menu_art_txt{
+    margin-left: 16px;
+    justify-content: center;
+}
+#section1 #store_menu .menu_art_txt > p{
+    margin-bottom: 8px;
+}

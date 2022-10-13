@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+
+<title>테이블링_앱_리디자인_김지운_검색페이지</title>
+  <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+   <![endif]-->
+<link href="./font/pretendard.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+<link href="./css/all.css" rel="stylesheet" type="text/css">
+<link href="./css/common.css" rel="stylesheet" type="text/css">
+<link href="./css/icon.css" rel="stylesheet" type="text/css">
+<link href="./css/layout.css" rel="stylesheet" type="text/css">
+<link href="./css/search_style.css" rel="stylesheet" type="text/css">
+<link href="./css/slick.css" rel="stylesheet" type="text/css" >
+
+</head>
+
+<body>
+<div id="wrap">
+    <header id="header">
+      <div class="inner flex">
+        <div class="location flex">
+          <span class="location_icon">위치아이콘</span><p class="txt_bold">부산광역시 수영구 수영동</p>
+        </div><!--location-->
+        <button class="alert_icon">알림창아이콘</button>
+        <div class="src_wrap flex">
+          <button class="search_icon">돋보기</button>
+          <input type="search" placeholder="매장을 검색해보세요" >
+        </div><!--src_wrap-->
+      </div>
+    </header>
+    <div class="inner">
+      <section id="section1">
+        <div class="s1_cont">
+          <h2 class="s1_tit txt_big txt_bold">최근 검색어</h2>
+          <div class="s1_txt_wrap">
+            <p class="s1_txt flex"> 
+              <a href="#none">숙달돼지</a>
+              <span class="txt_small txt_gray flex">09.19<button class="txt_small txt_gray">X</button></span>
+            </p>
+            <p class="s1_txt flex">
+            <a href="#none">롤링 파스타</a>
+            <span class="txt_small txt_gray flex">09.18<button class="txt_small txt_gray">X</button></span>
+          </p>
+          </div>
+        </div>
+      </section><!--section1-->
+      <section id="section2">
+        <div class="s2_cont">
+          <h2 class="s2_tit txt_big txt_bold">추천 키워드</h2>
+          <div class="s2_btn_wrap flex">
+            <button class="btn_hash">#깔끔한</button>
+            <button class="btn_hash">#분위기좋은</button>
+            <button class="btn_hash">#친절한</button>
+            <button class="btn_hash">#오션뷰</button>
+            <button class="btn_hash">#특별한</button>
+            <button class="btn_hash">#혼술/혼밥</button>
+          </div>
+        </div>
+      </section><!--section2-->
+      <section id="section3">
+        <div class="art_tit s3_tit">
+          <p class="txt_small txt_gray">10회 이상 검색하셨어요!</p>
+          <h2 class="txt_big txt_bold flex"><span class="txt_orenge">양식</span>은 어떠세요?</h2>
+        </div><!--s3_tit-->
+        <div class="swiper-container search_s3_slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><!--swiper-slide 1-->
+              <a href="./store/store_main.html" class="s3_art art1">
+                <div class="s3_art_txt">
+                  <div class="s3_art_txt_fir flex">
+                    <h3 class="txt_bold">롤링파스타</h3>
+                    <p class="flex"><span class="star_icon">별</span><span class="txt_small">5.0</span></p>
+                  </div><!--s3_art_txt_fir-->
+                  <div class="s3_art_txt_sec flex">
+                    <p class="txt_small txt_gray">양식·수영동</p><span class="txt_small txt_gray">0.55km</span>
+                  </div><!--s3_art_txt_sec-->
+                  <div class="s3_art_txt_third flex">
+                    <p class="flex"><button class="heart_icon">하트</button><span class="txt_small txt_gray">64</span></p>
+                    <p class="flex"><button class="comment_icon">댓글</button><span class="txt_small txt_gray">378</span></p>
+                  </div><!--s3_art_txt_sec-->
+                </div><!--s3_art_txt-->
+              </a><!--s3_art-->
+            </div><!--swiper-slide 1-->
+            <div class="swiper-slide"><!--swiper-slide 2-->
+              <a href="#" class="s3_art art2">
+                <div class="s3_art_txt">
+                  <div class="s3_art_txt_fir flex">
+                    <h3 class="txt_bold">포레스트</h3>
+                    <p class="flex"><span class="star_icon">별</span><span class="txt_small">5.0</span></p>
+                  </div><!--s3_art_txt_fir-->
+                  <div class="s3_art_txt_sec flex">
+                    <p class="txt_small txt_gray">양식·광안동</p><span class="txt_small txt_gray">0.35km</span>
+                  </div><!--s3_art_txt_sec-->
+                  <div class="s3_art_txt_third flex">
+                    <p class="flex"><button class="heart_icon">하트</button><span class="txt_small txt_gray">22</span></p>
+                    <p class="flex"><button class="comment_icon">댓글</button><span class="txt_small txt_gray">168</span></p>
+                  </div><!--s3_art_txt_sec-->
+                </div><!--s3_art_txt-->
+              </a><!--s3_art-->
+            </div><!--swiper-slide 2-->
+            <div class="swiper-slide"><!--swiper-slide 3-->
+              <a href="#" class="s3_art">
+                <div class="s3_art_txt">
+                  <div class="s3_art_txt_fir flex">
+                    <h3 class="txt_bold">롤링파스타</h3>
+                    <p class="flex"><span class="star_icon">별</span><span class="txt_small">5.0</span></p>
+                  </div><!--s3_art_txt_fir-->
+                  <div class="s3_art_txt_sec flex">
+                    <p class="txt_small txt_gray">양식·수영동</p><span class="txt_small txt_gray">0.55km</span>
+                  </div><!--s3_art_txt_sec-->
+                  <div class="s3_art_txt_third flex">
+                    <p class="flex"><button class="heart_icon">하트</button><span class="txt_small txt_gray">64</span></p>
+                    <p class="flex"><button class="comment_icon">댓글</button><span class="txt_small txt_gray">378</span></p>
+                  </div><!--s3_art_txt_sec-->
+                </div><!--s3_art_txt-->
+              </a><!--s3_art-->
+            </div><!--swiper-slide 3-->
+            <div class="swiper-slide"><!--swiper-slide 4-->
+              <a href="#" class="s3_art art2">
+                <div class="s3_art_txt">
+                  <div class="s3_art_txt_fir flex">
+                    <h3 class="txt_bold">포레스트</h3>
+                    <p class="flex"><span class="star_icon">별</span><span class="txt_small">5.0</span></p>
+                  </div><!--s3_art_txt_fir-->
+                  <div class="s3_art_txt_sec flex">
+                    <p class="txt_small txt_gray">양식·광안동</p><span class="txt_small txt_gray">0.35km</span>
+                  </div><!--s3_art_txt_sec-->
+                  <div class="s3_art_txt_third flex">
+                    <p class="flex"><button class="heart_icon">하트</button><span class="txt_small txt_gray">22</span></p>
+                    <p class="flex"><button class="comment_icon">댓글</button><span class="txt_small txt_gray">168</span></p>
+                  </div><!--s3_art_txt_sec-->
+                </div><!--s3_art_txt-->
+              </a><!--s3_art-->
+            </div><!--swiper-slide 4-->
+          </div><!--swiper-wrapper-->
+        </div><!--s3_slider-->
+      </section><!--#section3-->
+
+    </div><!--inner-->
+    <nav id="nav">
+      <div class="inner">
+        <ul class="gnb flex">
+          <li class="home ">
+            <a href="./index.html" class="flex_co">
+              <span class="home_icon_gray"></span>
+              <span class="txt_small txt_gray">홈</span>
+            </a>
+          </li>
+          <li class="review">
+            <a href="./review.html" class="flex_co">
+              <span class="review_icon_gray"></span>
+              <span class="txt_small txt_gray">솔직리뷰</span>
+            </a>
+          </li>
+          <li class="search">
+            <a href="./search.html" class="flex_co">
+              <span class="search_icon_orenge"></span>
+              <span class="txt_small txt_orenge">검색</span>
+            </a>
+          </li>
+          <li class="mypage">
+            <a href="./mypage.html" class="flex_co">
+              <span class="mypage_icon_gray"></span>
+              <span class="txt_small txt_gray">내정보</span>
+            </a>
+          </li>
+          <li class="more">
+            <a href="#" class="flex_co">
+              <span class="more_icon_gray"></span>
+              <span class="txt_small txt_gray">더보기</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div><!--wrap-->
+
+<script src="./js/jquery-3.1.1.min.js"></script>
+<script src="./js/jquery-migrate-3.0.0.js"></script>
+<script src="./js/slick.js"></script>
+<script src="./js/slick_active.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+<script src="./js/swiper_active.js"></script>
+</body>
+
+</html>
+

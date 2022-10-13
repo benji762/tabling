@@ -1,0 +1,110 @@
+/* section 공통 */
+section{
+    margin-bottom: 32px;
+}
+section:last-child{
+    margin-bottom: 100px;
+}
+#section1 .s1_tit, #section2 .s2_tit{
+    margin-bottom: 16px;
+}
+
+/* section1 */
+#section1 .s1_tit{
+    margin-bottom: 16px;
+}
+#section1 .s1_txt{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    padding-left: 14px;
+}
+#section1 .s1_txt:last-child{
+    margin-bottom: 0;
+}
+#section1 .s1_txt >span{
+    align-items: center
+}
+#section1 .s1_txt >span > button{
+    margin-left: 20px;
+}
+/* section2 */
+
+#section2 .s2_btn_wrap{
+    flex-wrap: wrap;
+}
+#section2 .s2_btn_wrap .btn_hash{
+    margin-right: 16px;
+    margin-bottom: 8px;
+}
+/* section3 */
+#section3 .swiper-container{
+    overflow: visible;
+}
+#section3 .art_tit h2{
+    align-items: center;
+}
+#section3 .art_tit{
+    margin-bottom: 16px;
+}
+#section3 .question_cha_icon{
+    width: 22px;
+    height: 22px;
+    margin-left: 5px;
+}
+#section3 .s3_art{
+    display: block;
+    width: 156px;
+    height: 248px;
+    border-radius: 10px;
+    background: url(../images/shop_img.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2);
+}
+#section3 .art2{
+    background: url(../images/shop2_img.jpg) no-repeat center;
+    background-size: cover;
+}
+#section3 .s3_art_txt{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 8px;
+    width: 100%;
+}
+#section3 .s3_art_txt_fir, #section3 .s3_art_txt_sec{
+    justify-content: space-between;
+}
+#section3 .s3_art_txt_fir{
+    margin-bottom: 4px;
+}
+#section3 .s3_art_txt_fir > p > .star_img{
+    margin-right: 2px;
+}
+#section3 .s3_art_txt_sec{
+    margin-bottom: 12px;
+}
+
+#section3 .s3_art_txt_third>p{
+    align-items: center;
+    margin-right: 16px;
+}
+#section3 .s3_art_txt_third>p >button{
+    margin-right: 5px;
+}
+#section3 .heart_icon{
+    width: 13px;
+    height: 12px;
+}
+#section3 .comment_icon{
+    width: 13px;
+    height: 12px;
+}
+#section3 .star_icon{
+    width: 15px;
+    height: 15px;
+}
