@@ -20,6 +20,28 @@ button{
     border: 1px solid #FA8470;
     color: #FF6651;
 }
+.btn_time{
+    display: inline-block;
+    padding: 7px 11px;
+    border-radius: 25px;
+    border: 1px solid rgba(0,0,0,0.2);
+    color: #222;
+    font-size: 0.875rem;
+}
+.btn_person{
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 25px;
+    border: 1px solid rgba(0,0,0,0.2);
+    color: #222;
+}
+.btn_person span{
+    margin-right: 15px;
+}
+.btn_person span:last-child{
+    margin-right: 0;
+}
+
 [type="search"]{
     border: none;
 }
@@ -129,6 +151,15 @@ button{
     height: 20px;
     margin-left: 16px;
 }
+#reserv_header{
+    padding: 16px 0;
+    margin-bottom: 16px;
+}
+#reserv_header .arrow_left_icon_bk{
+    width: 20px;
+    height: 16px;
+    margin-right: 10px;
+}
 
 
 
@@ -173,5 +204,19 @@ button{
     justify-content: space-between;
     padding: 10px 16px;
 }
-
+#reserv_nav{
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0 -1px 4px 0 rgba(0,0,0,0.1);
+    background-color: #FF6651;
+    align-items: center;
+    justify-content: center;
+}
+#reserv_nav > p{
+    letter-spacing: 0.1em;
+}
 
