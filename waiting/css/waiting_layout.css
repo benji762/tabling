@@ -1,0 +1,33 @@
+
+.txt_box{
+    background-color: #fff7f7;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+    padding: 16px;
+    margin-bottom: 32px;
+}
+.txt_box > p{
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.txt_box > p:last-child{
+    margin-bottom: 0;
+}
+
+/* section */
+#section1 .tit{
+    margin-bottom: 32px;
+}
+
+.line{
+    width: 100%;
+    height: 8px;
+    background-color: #f1f1f1;
+    font-size: 0;
+}
+#section2{
+    margin-bottom: 32px;
+}
+#section2 .tit, #section3 .tit{
+    padding: 16px 0;
+}

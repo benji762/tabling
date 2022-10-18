@@ -1,0 +1,17 @@
+#section2 .txt_box{
+    background-color: #fff;
+}
+#section2 .txt_box > h2{
+    margin-bottom: 16px;
+}
+#section2 .txt_box > p{
+    align-items: center;
+    justify-content: flex-start;
+}
+#section2 .txt_box > p > span{
+    margin-right: 8px;
+}
+
+#section3 .person{
+    justify-content: space-between;
+}
