@@ -14,3 +14,12 @@ $(function(){
 		})
 	})
 	})
+
+	$(function(){
+	$('#review_feed .btn_hash').each(function(){
+		$(this).click(function(){
+			$('#review_feed .btn_hash').removeClass('on');
+			$(this).addClass('on');
+		})
+	})
+	})

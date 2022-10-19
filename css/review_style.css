@@ -1,0 +1,199 @@
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 16px;
+}
+.slick-dots li{
+    font-size: 0;
+    line-height: 0em;
+}
+.slick-dots li::after{
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    margin-right: 5px;
+}
+.slick-dots li.slick-active::after{
+    background-color: #FF6651;
+}
+
+#review_header{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 32px 0 0 0;
+    box-shadow: 0 2px 8px 0 rgb(0,0,0,0.2);
+
+}
+#review_header h2{
+    margin-bottom: 0;
+    padding: 0 16px;
+}
+#review_header .txt_box{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    border-radius: 10px;
+    margin: 16px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+#review_header section{
+    margin-bottom: 0;
+}
+
+.line.review{
+    background-color: #FFF7F7;
+    height: 16px;
+}
+
+/* section 공통 */
+section{
+    margin-bottom: 32px;
+}
+section:last-child{
+    margin-bottom: 100px;
+}
+#section1 .s1_tit, #section2 .s2_tit{
+    margin-bottom: 16px;
+}
+
+/* section1 */
+
+#review_feed .tabSet{
+	margin-bottom:30px;
+}
+#review_feed .tabs{
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+#review_feed .tabs > li{
+    width: 100%;
+}
+#review_feed .tabs > li > a{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 11px 0;
+    color: #b5b5b5;
+}
+
+#review_feed .tabs > li > a.on{
+    border-bottom: 2px solid #ff6651;
+    color: #222;
+}
+#review_feed .tabs > li:nth-child(2) > a.on{
+    border-bottom: 2px solid #ff6651;
+}
+#review_feed .panel{
+	display: none;
+}
+#recommendation .btn_wrap{
+    padding-left: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 32px;   
+}
+#recommendation .btn_wrap .btn_hash{
+    margin-right: 16px;
+}
+#recommendation .btn_wrap .btn_hash:last-child{
+    margin-right: 0;
+}
+#recommendation .review_art{
+    width:100%
+}
+#recommendation .review_art_tit{
+    align-items: center;
+    margin-bottom: 16px;
+}
+#recommendation .review_art .btn_follow{
+    margin-left: auto;
+}
+
+#recommendation .review_art .pro_img{
+    width:30px;
+    height:30px;
+    background-color: #FF6651;
+    font-size: 0;
+    line-height: 0;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+#recommendation .review_art_cont .btn_wrap{
+    flex-wrap: wrap;
+}
+#recommendation .review_art_img{
+    font-size: 0;
+    line-height: 0;
+    width: 100%;
+    height: 200px;
+    background-color: #FF6651;
+    margin-bottom: 16px;
+}
+#recommendation .review_art_link{
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+#recommendation .review_art_cont .score_wrap{
+    align-items: flex-end;
+    margin-bottom: 16px;
+}
+#recommendation .review_art_cont .star_icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    padding-top: 1px;
+
+}
+#recommendation .review_art_cont .comment_wrap{
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+#recommendation .review_art_cont .date{
+    margin-left: auto;
+}
+#recommendation .review_art_cont .comment{
+    line-height: 1.5em;
+}
+#recommendation .review_art_cont .comment_wrap .more{
+    float: right;
+    font-size: 12px;
+}
+#recommendation .review_art_cont .btn_wrap{
+    padding: 0;
+    border: none;
+    margin-bottom: 16px;
+}
+#recommendation .review_art_cont .btn_wrap .btn_hash{
+    margin-bottom: 8px;
+}
+#recommendation .review_art_cont .btn_wrap .btn_hash.on{
+    color: #222;
+    background-color: #fff;
+    border: 1px solid #FF6651;
+}
+#recommendation .review_art_cont .icon_wrap button{
+    align-items: center;
+}
+#recommendation .review_art_cont .icon_wrap button > p{
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+#recommendation .review_art_cont .icon_wrap button:first-child{
+    margin-right: 16px;
+}
+#recommendation .review_art_cont .icon_wrap button:last-child{
+    margin-left: auto;
+}

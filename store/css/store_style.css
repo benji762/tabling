@@ -80,7 +80,7 @@ section:last-child{
 }
 /* section1 */
 #section1{
-
+    margin-bottom: 100px;
 }
 #section1 .tabSet{
 	margin-bottom:30px;
