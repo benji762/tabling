@@ -53,12 +53,13 @@ button{
     border: 1px solid rgba(0,0,0,0.2);
     color: #222;
 }
-.btn_person span{
-    margin-right: 15px;
-}
-.btn_person span:last-child{
-    margin-right: 0;
-}
+    .btn_person .minus{
+        margin-right: 10px;
+    }
+    .btn_person .person_val{
+        border: none;
+        width: 20px;
+    }
 
 [type="search"]{
     border: none;

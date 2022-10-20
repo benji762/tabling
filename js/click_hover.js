@@ -23,3 +23,12 @@ $(function(){
 		})
 	})
 	})
+
+	$(function(){
+		$('.btn_person .add').click(function(){
+			$(".person_val").val(parseInt($(".person_val").val())+1);
+		})
+		$('.btn_person .minus').click(function(){
+			$(".person_val").val(parseInt($(".person_val").val())-1);
+		})
+		})
