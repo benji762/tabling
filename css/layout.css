@@ -62,6 +62,7 @@ button{
 
 [type="search"]{
     border: none;
+    width: 80%;
 }
 .inner{
     padding: 0 16px;
