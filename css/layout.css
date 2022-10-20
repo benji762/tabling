@@ -1,4 +1,62 @@
 
+/* intro */
+#intro{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FF6651;
+    z-index: 9999;
+    /* display: none; */
+    overflow: hidden;
+}
+#intro .frame{
+    margin: 0 auto;
+    width: 80%;
+    height: 45%;
+    box-sizing: border-box;
+    border: 8px solid #000;
+    background-color: #fff;
+    border-top: 0px solid #000;
+    border-radius: 0 0 30px 30px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+#intro .frame p{
+    font-size: 32px;
+    letter-spacing: 0.05em;
+    transform: translate(0, -50%);
+}
+#intro .paper{
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    width: 80%;
+    height: 100%;
+    background: url(../images/intro_paper.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    transform: translateX(-50%);
+    z-index: -1;
+    animation: move_down 1.3s 0.5s linear forwards;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+@keyframes move_down{
+    0%{bottom: 0px;}
+    100%{bottom: -70%;}
+}
+#intro .skip{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
 #wrap{
     width: 100%;
     /* max-width: 360px; */

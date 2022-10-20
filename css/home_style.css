@@ -1,0 +1,189 @@
+
+/* section 공통 */
+section{
+    margin-bottom: 32px;
+}
+#section2 .swiper-container, #section3 .swiper-container{
+    overflow: visible;
+}
+#section2 .art_tit h2, #section3 .art_tit h2{
+    align-items: center;
+}
+#section2 .art_tit, #section3 .art_tit{
+    margin-bottom: 16px;
+}
+
+/* section1 */
+
+#section1{
+    margin-bottom: 0;
+    margin: 0 -16px;
+}
+#section1 .s1_art{
+    padding: 32px 16px;
+    background-color: #FF6651;
+    border-radius: 20px;
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2);
+    margin:0 16px 32px 16px;
+}
+#section1 .art_tit{
+    margin-bottom: 16px;
+}
+
+#section1 .art_cont{
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+    background-color: #FFF7F7;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+#section1 .art_cont_txt{
+    width:165px;
+}
+
+#section1 .art_cont_txt h3{
+    margin-bottom: 12px;
+}
+
+#section1 .art_cont_txt > div{
+    justify-content: space-around;
+}
+#section1 .art_cont_txt p > span:nth-child(1){
+    margin-bottom: 4px;
+}
+#section1 .art_cont_txt p > span:nth-child(2){
+    margin-bottom: 13px;
+}
+#section1 .art1 .art_cont_txt p{
+    align-items: center;
+}
+#section1 .art2 .art_cont_txt h3, #section1 .art3 .art_cont_txt h3{
+    margin-bottom: 14px;
+}
+#section1 .art2 .art_cont_txt p, #section1 .art3 .art_cont_txt p{
+    margin-bottom: 15px;
+}
+#section1 .art_btn span{
+    display: inline-block;
+    border-radius: 20px;
+    padding: 6px 16px;
+    background: #FF6651;
+    box-sizing: border-box;
+}
+#section1 .art_cont_img{
+    width: 85px;
+    height: 112px;
+    background: url(../images/shop_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+/* section2 */
+
+
+
+
+#section2 .question_cha_icon{
+    width: 22px;
+    height: 22px;
+    margin-left: 5px;
+}
+#section2 .s2_art{
+    display: block;
+    width: 156px;
+    height: 248px;
+    border-radius: 10px;
+    background: url(../images/shop_img.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2);
+}
+#section2 .art2{
+    background: url(../images/shop2_img.jpg) no-repeat center;
+    background-size: cover;
+}
+#section2 .s2_art_txt{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 8px;
+    width: 100%;
+}
+#section2 .s2_art_txt_fir, #section2 .s2_art_txt_sec{
+    justify-content: space-between;
+}
+#section2 .s2_art_txt_fir{
+    margin-bottom: 4px;
+}
+#section2 .s2_art_txt_fir > p > .star_img{
+    margin-right: 2px;
+}
+#section2 .s2_art_txt_sec{
+    margin-bottom: 12px;
+}
+
+#section2 .s2_art_txt_third>p{
+    align-items: center;
+    margin-right: 16px;
+}
+#section2 .s2_art_txt_third>p >button{
+    margin-right: 5px;
+}
+#section2 .heart_icon{
+    width: 13px;
+    height: 12px;
+}
+#section2 .comment_icon{
+    width: 13px;
+    height: 12px;
+}
+#section2 .star_icon{
+    width: 15px;
+    height: 15px;
+}
+
+/* section3 */
+#section3{
+    margin-bottom: 100px;
+}
+#section3 .fire_icon{
+    width: 22px;
+    height: 22px;
+}
+#section3 .swiper-slide:nth-of-type(2n) .s3_art{
+    background-color: #FFF7F7;
+}
+#section3 .s3_art{
+
+    width: 100px;
+    height: 186px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 16px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2);
+}
+#section3 .s3_art_cont{
+    align-items: center;
+}
+#section3 .s3_art_img{
+    width: 66px;
+    height: 66px;
+    background: url(../images/shop_img.jpg) no-repeat center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-bottom: 32px;
+}
+#section3 .s3_art_username{
+    margin-bottom: 8px;
+}
+#section3 .s3_art_btn_follow{
+    padding: 5px 8px;
+    border-radius: 25px;
+    border: 1px solid #FF6651;
+}
+
