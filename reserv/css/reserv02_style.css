@@ -5,7 +5,7 @@
     background-color: #f1f1f1;
     padding: 8px 16px 52px 16px;
     box-sizing: border-box;
-
+    resize: none;
 }
 .textarea::placeholder{
     font-size: 14px;

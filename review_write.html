@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+
+<title>테이블링_앱_리디자인_김지운_review_write</title>
+  <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+   <![endif]-->
+<link href="./font/pretendard.css" rel="stylesheet" type="text/css">
+<link href="./css/all.css" rel="stylesheet" type="text/css">
+<link href="./css/common.css" rel="stylesheet" type="text/css">
+<link href="./css/icon.css" rel="stylesheet" type="text/css">
+<link href="./css/layout.css" rel="stylesheet" type="text/css">
+<link href="./css/review_write_style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="wrap">
+  <header id="reserv_header">
+    <div class="inner flex">
+      <button class="page_back arrow_left_icon_bk">뒤로가기버튼</button>
+      <h2>리뷰를 남겨주세요</h2>
+    </div><!--inner-->
+  </header>
+  <div class="inner">
+  <section id="section1">
+    <h2 class="tit txt_bold">매장정보</h2>
+    <div class="txt_box flex">
+      <p class="left flex_co">
+        <strong>롤링파스타</strong>
+        <span class="txt_small txt_gray">2022-09-27(화) 방문</span>
+      </p>
+    </div><!--txt_box-->
+  </section>    
+  <section id="section2">
+      <h2 class="tit txt_bold">좋았던점을 골라주세요 (1개~5개)</h2>
+      <input onclick="CountChecked(this)" type="checkbox" id="cb1">
+      <label for="cb1"></label>
+      <input onclick="CountChecked(this)" type="checkbox" id="cb2">
+      <label for="cb2"></label>
+      <input onclick="CountChecked(this)" type="checkbox" id="cb3">
+      <label for="cb3"></label>
+      <input onclick="CountChecked(this)" type="checkbox" id="cb4">
+      <label for="cb4"></label>
+      <input onclick="CountChecked(this)" type="checkbox" id="cb5">
+      <label for="cb5"></label>
+      <input onclick="CountChecked(this)" type="checkbox" id="cb6">
+      <label for="cb6"></label>
+      <input onclick="CountChecked(this)" type="checkbox" id="cb7">
+      <label for="cb7"></label>
+      <input onclick="CountChecked(this)" type="checkbox" id="cb8">
+      <label for="cb8"></label>
+      <input onclick="CountChecked(this)" type="checkbox" id="cb9">
+      <label for="cb9"></label>
+  </section>  
+  <section id="section3">
+      <h2 class="tit txt_bold">리뷰를 남겨주세요</h2>
+      <button class="add_img flex">
+        <span class="pic_icon">사진기모양 아이콘</span>
+        <span class="txt_small txt_bold">사진추가</span>
+        <span class="txt_gray">최대 20장</span>
+      </button>
+      <div>
+        <textarea class="textarea" rows="5" cols="30" placeholder="리뷰 작성하기&#13;&#10;업주와 다른 사용자들이&#13;&#10;상처받지 않도록 좋은 표현을 사용해주세요."></textarea>
+      </div>
+  </section>
+  </div>
+  <nav id="reserv_nav" class="flex">
+      <a href="#none" class="txt_white txt_bold flex btn_write">등록하기</a>
+  </nav>
+  <div class="pop write">
+    <p class="pop_bg"></p>
+    <div class="pop_cont flex">
+      <div class="pop_txt flex_co">
+        <h2 class="txt_bold txt_big">리뷰작성이 완료되었습니다!</h2>
+        <p class="txt_wrap flex">
+          <a class="txt_small" href="#">확인하러가기</a>
+          <a class="txt_small" href="./home.html">홈으로</a>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div><!--wrap-->
+
+<script src="./js/jquery-3.1.1.min.js"></script>
+<script src="./js/jquery-migrate-3.0.0.js"></script>
+<script src="./js/click_hover.js"></script>
+<script src="./js/checkbox.js"></script>
+<script src="./js/scroll.js"></script>
+
+</body>
+
+</html>

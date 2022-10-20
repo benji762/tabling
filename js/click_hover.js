@@ -32,3 +32,9 @@ $(function(){
 			$(".person_val").val(parseInt($(".person_val").val())-1);
 		})
 		})
+
+	$(function(){
+		$('.btn_write').click(function(){
+			$(".pop.write").addClass('on');
+		})
+		})

@@ -130,3 +130,9 @@
     background-size: contain;
     font-size: 0;
 }
+.pic_icon{
+    display: inline-block;
+    background: url(../images/pic_icon.png) no-repeat center;
+    background-size: contain;
+    font-size: 0;
+}
