@@ -69,6 +69,7 @@ section{
     padding: 6px 16px;
     background: #FF6651;
     box-sizing: border-box;
+    position: relative;
 }
 #section1 .art_cont_img{
     width: 85px;

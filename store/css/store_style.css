@@ -154,3 +154,8 @@ section:last-child{
 #section1 #store_menu .menu_art_txt > p{
     margin-bottom: 8px;
 }
+#store_review >span, #store_info >span{
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}

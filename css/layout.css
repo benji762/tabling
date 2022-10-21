@@ -1,4 +1,22 @@
-
+.touch{
+    position: relative;
+}
+.touch::after{
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255, 102, 81,0.5);
+    z-index: 2;
+    animation: touch 1s 0.2s linear infinite;
+}
+@keyframes touch{
+    0%{scale: 0.5;}
+    100%{scale: 1;}
+}
 /* intro */
 #intro{
     position: absolute;
@@ -269,6 +287,11 @@ button{
     align-items: center;
     width: 52px;
     padding: 12px 0 8px 0;
+    position: relative;
+}
+#nav .gnb > li > a.touch::after{
+    top: 0;
+    left: 0;
 }
 #nav .gnb > li > a > span:nth-child(1){
     margin-bottom: 4px;
