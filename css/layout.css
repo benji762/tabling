@@ -308,3 +308,8 @@ button{
     letter-spacing: 0.1em;
 }
 
+@media all and (min-width:530px){
+    .inner{
+        padding: 0 32px;
+    }
+}
