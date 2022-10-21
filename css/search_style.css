@@ -54,7 +54,8 @@ section:last-child{
 }
 #section3 .s3_art{
     display: block;
-    width: 156px;
+    width: 100%;
+    /* width: 156px; */
     height: 248px;
     border-radius: 10px;
     background: url(../images/shop_img.jpg) no-repeat center;
